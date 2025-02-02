@@ -1,0 +1,35 @@
+.cardexplore{
+    width: 224.890px;
+    height: 219.2679px;
+    border: 2px solid #DADAF780;
+    border-radius: 20px;
+    background: #364C65;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3.125vw;
+    margin-bottom: 33px;
+
+    .icon{ 
+        width:60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: #FAB437;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .section{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        color:#D9ECFF ;
+
+    }
+
+
+}
+
+

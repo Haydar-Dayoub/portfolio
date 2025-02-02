@@ -1,0 +1,114 @@
+
+    
+
+.about{
+    padding:0 4.55vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    padding-top: 163px;
+    
+    
+    .img{
+        width: 100%;
+    }
+
+    .title{
+        font-weight: 600;
+        font-size: 2.5rem;
+        /* color: #1D2130; */
+    }
+
+    .desc{
+        max-width: 598px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-size: 1.125rem;
+        font-weight: 400;
+        /* color: #1D2130; */
+    }
+
+}
+
+.skills{
+    
+    
+    .part-skil{
+        margin-bottom: 20px;
+        
+        
+    }
+    .skil{
+        font-size: 1.5rem;
+        font-weight: 600;
+        /* color: #1D2130; */
+        margin-bottom: 20px;
+    }
+    .p{
+        width: 42.97218vw;
+        background-color: #EDECEC;
+        border-radius: 6px;
+                
+        .span1{
+            background-color: #0C96E2;
+            position: relative;
+            display: block;
+            border-radius: 10px;
+            height: 11px;
+
+            .rec{
+                position: absolute;
+                top: -9px;
+                right: -20px;
+                cursor: pointer;
+            }
+            .percent{      
+                position: absolute;
+                right: -20px;
+                top: -45px;
+                background-color: #0C96E2;
+                align-items: center;
+                justify-content: center;
+                border-radius: 4px;
+                display: flex;
+                color: #FFFFFF;
+                font-size: 1rem;
+                padding: 4px 5px;
+            }
+
+            .tringle{
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                bottom: -10px;
+            }
+            
+        }
+    }
+}
+
+
+@media screen and (max-width:992px){
+    html{
+        font-size: 10px;
+    }
+    .about{
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .img{
+            display: none;
+        }
+
+        .skills{
+            .part-skil{
+
+                .p{
+                    width: 90vw;
+                }
+            }
+        }
+    }
+
+}

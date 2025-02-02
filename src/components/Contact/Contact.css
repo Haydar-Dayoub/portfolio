@@ -1,0 +1,29 @@
+.contact{
+    margin-top: 94px;
+    padding:0 4.55vw;
+    padding-top: 110px;
+
+    .con{
+        font-weight: 500;
+        font-size: 20px;
+        color: #0C96E2;
+    }
+
+    .discuss{
+        font-weight: 600;
+        font-size: 2.5rem;
+        /* color: #1D2130; */
+        .project{
+            color: #0C96E2;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    html{
+        font-size: 10px;
+    }
+
+
+    
+}

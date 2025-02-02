@@ -1,0 +1,41 @@
+.education{
+    position: relative;
+    padding-top: 110px;
+    .edu1{
+        position: absolute;
+        left: 87%;
+    }
+
+    .edu2{
+        position: absolute;
+        rotate: 180deg;
+        top: 82%;
+        left: -1%;
+    }
+    
+    .first{
+        text-align: center;
+        .edu{
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #0C96E2;
+        }
+        .ex{
+            font-size: 2.5rem;
+            font-weight: 600;
+            /* color: #282938; */
+        }
+    }
+}
+
+@media screen and (max-width:992px){
+    html{
+        font-size: 10px;
+    }
+
+    .education{
+        .edu1,.edu2{
+            display: none;
+        }
+    }
+}

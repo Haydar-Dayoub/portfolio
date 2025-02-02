@@ -1,0 +1,21 @@
+.container{
+    padding:0 4.55vw;
+    display: flex;
+    margin-top: 88px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 165px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:992px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,130 @@
+.hero{
+    padding:0 4.55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 0px; */
+    
+    
+    .personal{
+        background-repeat: no-repeat;
+
+        .title{            
+            font-size: 3.4375rem;
+            font-weight: 700;
+            /* color: #1D2130; */
+
+            .hey{
+                font-weight: 400;
+            }
+        }
+
+        .subtitle{
+            max-width: 416.0468px;
+            font-weight: 400;
+            font-size: 1rem;
+            /* color: #43495B; */
+            margin-bottom: 35px;
+        }
+
+        .cv{
+            border: none;
+            /* color: #1D2130; */
+            padding:12px 29px 14px 29px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 15px;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        
+    }
+    .photo{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+/*         position: relative;
+ */        height: 383px;
+
+
+
+        
+        .woman{
+            /* width: 100%; */
+            /* position: absolute; */
+            /* top: 50%; */
+            /* right: 50%; */
+            /* transform: translate(50% , -50%);   */
+            border-radius: 37px;
+            width: 400px;
+            height: 400px;
+            /* object-fit: fill;           */
+        }
+        .squers{
+            width: 35%;
+            position: absolute;
+   /*          top: -5.692708vh;
+            right: -1.0235vw; */
+            top: 20.307292vh;
+            right: -0.0235vw;
+
+        }
+    }    
+
+}
+
+
+@media screen and (max-width:992px){
+    html{
+        font-size: 10px;
+    }
+
+    .hero{
+        /* margin-top: 55px; */
+        /* justify-content: space-evenly; */
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 45px;
+
+        .personal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            .title{
+                font-size: 2.4375rem;
+            }
+            .title.front{
+                font-size: 26px;
+                margin: 5px 0 5px 0;
+            }
+            .subtitle{
+                text-align: center;
+                
+
+            }
+        }
+
+        .photo{
+            /* display: none; */
+            .woman{
+                position: relative;
+                width: 200px;
+                height: 200px;
+                top: 43%;
+                /* right: 50%; */
+                /* transform: translate(50% ,-50%); */
+            }
+
+            .squers{
+                top: 0px;
+                display: none;
+            }
+        }
+
+
+    }
+
+}

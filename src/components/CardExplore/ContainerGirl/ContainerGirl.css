@@ -1,0 +1,17 @@
+.containergirl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    /* overflow-x: scroll; */
+}
+
+@media screen and (max-width:992px) {
+    .containergirl{
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+    
+    
+}
+

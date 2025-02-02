@@ -1,0 +1,16 @@
+.containercontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 94px;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width:992px) {
+
+
+
+    
+}

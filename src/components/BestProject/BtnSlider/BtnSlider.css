@@ -1,0 +1,13 @@
+.icon-left{
+    .m{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0C96E2;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        cursor: pointer;
+        font-size: 25px;
+    }       
+}

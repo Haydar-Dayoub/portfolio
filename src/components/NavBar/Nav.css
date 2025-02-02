@@ -1,0 +1,99 @@
+.parentlistnav{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 4.55vw;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100vw;
+    z-index: 20;
+    transition: 0.3s all ease-in;
+    /* background-color: white; */
+
+
+    #name{
+        text-decoration: none;
+        .name{
+            font-weight: 600;
+            font-size: 24px;
+            /* color: #1D2130; */
+        }
+        
+
+    }
+    
+    .listnav{
+        display: flex;
+        list-style: none;
+        gap: 24px;
+
+        li{
+            font-size: 16px;
+            font-weight: 500;
+            /* color: #1D2130; */
+            a{
+                text-decoration: none;
+                color: black;
+
+        }
+    }
+    .active{
+        color: #0C96E2;
+    }   
+}
+    .mode{
+        cursor: pointer;
+    }
+    .ss{
+        display: none;
+        padding: 7px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: #ffffff ;
+        .menublack{
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:992px) {
+    nav {
+        /* margin-top: 5px; */
+
+        .listnav{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+    }
+
+
+    nav .ss{
+        display: block;
+    }
+    nav .mode{
+        display: none;
+    }
+
+    
+}

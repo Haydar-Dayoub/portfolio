@@ -1,0 +1,65 @@
+.risk{
+    position: relative;
+    width: 99vw;
+    padding:0 5.9895vw;
+    height: 375px;
+    background-repeat: no-repeat;
+    background-size: 88% 100%;
+    background-position: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .free{
+        max-width: 550px;
+        .try{
+            font-weight: 600;
+            font-size: 3rem;
+            color: #FFFFFF;
+        }
+
+        .design{
+            font-weight: 400;
+            font-size: 1.25rem;
+            color: #FFFFFF;
+
+            .sub{
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+    }
+    .contactancer{
+        text-decoration: none;
+        .contactbtn{
+            background-color: #0C96E2;
+            padding: 14px 2.6041vw;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@media screen and (max-width:992px){
+    html{
+        font-size: 10px;
+    }
+
+    .risk{
+        width: 100vw;
+        background-size: 100% 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}

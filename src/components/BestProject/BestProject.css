@@ -1,0 +1,57 @@
+.bestproject{
+    padding:0 4.55vw;
+    margin-top: 5.2083vw;
+    margin-bottom: 94px;
+
+
+    .con{
+        font-weight: 500;
+        font-size: 20px;
+        color: #0C96E2;
+    }
+    .creative{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+
+        .discusss{
+            max-width: 407.0512px;
+            font-weight: 600;
+            font-size: 2.5rem;
+            /* color: #1D2130; */
+            .project{
+                color: #0C96E2;
+            }
+        }
+        .icon-left{
+            display: flex;
+            gap: 5px;
+     
+
+        }
+    }
+
+    .containerdetails{
+        display: flex;
+        transition: 1s all ease-in-out;
+        flex-shrink: 0;
+        gap: 62px;
+        margin-top: 56px;
+        .slide{
+            flex-shrink: 0;
+            
+        }
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .containerdetails{
+        .slide{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
