@@ -122,11 +122,16 @@ html{
   .visible{
     display: none;
   }
-  .close{
-    left: 80vw;
+
+  .block{
+    .close{
+      left: 80vw;
+    }
+  
+    .img-popup{
+      width: 100%;
+    }
+
   }
 
-  .img-popup{
-    width: 100%;
-  }
 }
