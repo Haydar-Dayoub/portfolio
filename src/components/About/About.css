@@ -95,7 +95,8 @@
     }
     .about{
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-bottom: 0;
+        /* margin-top: 50px; */
 
         .img{
             display: none;

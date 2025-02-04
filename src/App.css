@@ -12,12 +12,6 @@ html{
   color: #0C96E2;
 }   
 
-
-
-/* body{
-  background-color: black;
-} */
-
 .light{
   background-color: #1B2431;
   color: #FFFFFF;
@@ -77,7 +71,6 @@ html{
 .visible{
   position: fixed;
   z-index: 25;
-  /* background-color: aqua; */
   height: 100vh;
   display: block;
   padding-top: 50px;
@@ -95,8 +88,6 @@ html{
       text-decoration: none;
     }
 
-
-
   }
       #moon{
       margin-top:30px ;
@@ -107,13 +98,6 @@ html{
       font-weight: 500;
     }
   
-
-/*   width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-
 }
 
 
@@ -122,16 +106,15 @@ html{
   .visible{
     display: none;
   }
+}
 
+@media screen and (max-width:992px) {
   .block{
     .close{
       left: 80vw;
-    }
-  
+    }  
     .img-popup{
       width: 100%;
     }
-
   }
-
 }

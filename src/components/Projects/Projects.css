@@ -48,12 +48,16 @@
     html{
         font-size: 10px;
     }
-
-    .creative{
-        gap: 20px;
-        
-        
+    .projects{
+        margin-top: 0;
+        .creative{
+            gap: 20px;
+            
+            
+        }
     }
+
+
 
 
     
