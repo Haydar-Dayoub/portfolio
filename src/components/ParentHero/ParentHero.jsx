@@ -1,6 +1,5 @@
 import React from 'react'
 import './ParentHero.css'
-
 import lines from '../../assets/img/lines.png'
 
 

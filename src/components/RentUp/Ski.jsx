@@ -39,7 +39,6 @@ const Ski = ({value}) => {
                     alt="" />
                 <a href=" https://haydar-dayoub.github.io/ski/"><img src="./Icon(2).png" alt="" /></a>              
             </div>
-
             </div>
             <div className='parent-platform'>
                 <div>
@@ -48,8 +47,7 @@ const Ski = ({value}) => {
                             <h2 className='website-name'>Rent-Up Platform</h2>
                             <p className='date'>5-7-2024</p>
                         </div>
-                        <a href="https://haydar-dayoub.github.io/ski/"> <img src={icon}  alt="" /> </a>
-                                     
+                        <a href="https://haydar-dayoub.github.io/ski/"> <img src={icon}  alt="" /> </a>                                   
                     </div>
                     <p className='desc'>It is a website that displays snow activities in the high mountains and provides a set of tips about the snowy places that are recommended according to the visitors’ opinion. It also contains many advantages such as booking tickets for these sites and giving you the best destination.</p>
                     {

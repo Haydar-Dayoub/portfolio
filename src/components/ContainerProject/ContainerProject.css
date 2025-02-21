@@ -1,18 +1,12 @@
 .containerproject{
     margin-top: 56px;
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     gap: 60px;
-    
-
 }
 
 @media screen and (max-width:992px) {
     html{
         font-size: 10px;
-    }
-
-
-    
+    }    
 }

@@ -12,7 +12,6 @@
     .discuss{
         font-weight: 600;
         font-size: 2.5rem;
-        /* color: #1D2130; */
         .project{
             color: #0C96E2;
         }
@@ -25,8 +24,5 @@
     }
     .contact{
         margin-top: 0;
-    }
-
-
-    
+    }   
 }

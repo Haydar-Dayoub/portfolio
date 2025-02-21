@@ -30,10 +30,7 @@ const Nav = ({name,menu,changeValue,bttn,click,exit}) => {
         <p className='exit'onClick={exit}>x</p>
         
   </div>
-
       </div>
-
-
 
           <nav style={{backgroundColor : theme === 'dark' ?  '#FFFFFF' : '#1B2431'}}>
       <Link to={'/'} id='name' ><p className='name' style={{color : theme === 'dark' ?  '#1D2130' : '#FFFFFF'}}>{name}</p></Link>
@@ -41,29 +38,24 @@ const Nav = ({name,menu,changeValue,bttn,click,exit}) => {
         <ul className='listnav'>
             {menu.map((element,index)=>{
                 return(
-
                   <li key={index} ><a href={element.path}  /* className={({isActive})=> isActive ? "active" : ""} */ style={{color : theme === 'dark' ?  '#1D2130' : '#FFFFFF'}}>{element.title} </a></li>
                 )
             })}
         </ul>
         <img
-         src={`${theme}.png`}
-         className='mode'
-         onClick={changeValue} />
+        src={`${theme}.png`}
+        className='mode'
+        onClick={changeValue} />
 
-        <button className='ss'
-        onClick={click}
-/*         style={{backgroundColor : theme === 'dark' ? '#1D2130'  :'#FFFFFF' }}
- */        >{/* <i className={bttn}></i> */} <img src={theme === 'dark' ? '/menublack.png' : '/menu.png'} className='menublack' alt="" /></button>
-
-
-
-
-    </nav>
-      
-    </div>
-
-    
+        <button 
+        className='ss'
+        onClick={click}>
+          <img 
+          src={theme === 'dark' ? '/menublack.png' : '/menu.png'}
+          className='menublack' alt="" />
+        </button>
+    </nav>     
+    </div>    
   )
 }
 

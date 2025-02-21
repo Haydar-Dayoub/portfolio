@@ -19,7 +19,6 @@
             max-width: 407.0512px;
             font-weight: 600;
             font-size: 2.5rem;
-            /* color: #1D2130; */
             .project{
                 color: #0C96E2;
             }
@@ -27,8 +26,6 @@
         .icon-left{
             display: flex;
             gap: 5px;
-     
-
         }
     }
 

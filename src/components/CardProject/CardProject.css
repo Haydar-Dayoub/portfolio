@@ -1,8 +1,5 @@
 .cardproject{
     max-width: 416.0468px;
-    /* flex-shrink: 0; */
-    
-
     .image-project{
         width: 100%;
         height: 238.3050px;
@@ -17,12 +14,9 @@
         .title-project{
             font-weight: 600;
             font-size: 1.375rem;
-            /* color: #1D2130; */
             margin-top: 32px;
             margin-bottom: 11px;
-
         }
-
         .framework{
             display: flex;
             justify-content: space-between;
@@ -30,15 +24,9 @@
             .html{
                 font-size: 16px;
                 font-weight: 400;
-                /* color: #1D2130; */
             }
-
-
-
         }
     }
-
-
 }
 
 
@@ -46,21 +34,13 @@
     html{
         font-size: 10px;
     }
-
     .cardproject{
-
         .project-name{
             .framework{
                 .arow{
                     width: 30px;
                 }
-
             }
-
         }
- 
-    }
-
-
-    
+    }   
 }

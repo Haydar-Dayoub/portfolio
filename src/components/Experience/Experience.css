@@ -2,12 +2,10 @@
     display: flex;
     gap: 47px;
     margin-bottom: 30px;
-
     .front{
         .name{
             font-weight: 500;
             font-size: 1.5625rem;
-            /* color: #344054; */
             margin-bottom: 12px;
         }
         .lorem{
@@ -28,7 +26,6 @@
     }
     .exp{
         gap: 25px;
-
         .line{
             height: 31.45vh;
         }

@@ -4,8 +4,7 @@ import './ContainerGirl.css'
 const ContainerGirl = (props) => {
   return (
     <div className='containergirl'>
-        {props.children}
-         
+        {props.children}        
     </div>
   )
 }

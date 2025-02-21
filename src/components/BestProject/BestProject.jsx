@@ -118,9 +118,9 @@ const BestProject = () => {
             <div className='creative'>
                 <h1 className='discusss'>The Best <span className='project'>Projects</span></h1>
                 <BtnSlider prevSlide={prevSlide} nextSlide={nextSlide}
-                 leftBlack="fa-solid fa-chevron-left"
-                 rightBlack="fa-solid fa-chevron-right"
-                 /> 
+                    leftBlack="fa-solid fa-chevron-left"
+                    rightBlack="fa-solid fa-chevron-right"
+                /> 
             </div>
             <div className='parent-container' style={{overflow: 'hidden' }}>
                 <div className="containerdetails" style={{transform:`translateX(-${slideIndex * 107}%)`}}>

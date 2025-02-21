@@ -10,8 +10,7 @@ const Risk = ({title,subtitle,sub,btn,img}) => {
                 <p className='design'>{subtitle}<span className='sub'>{sub}</span></p>
             </div>
             <div>
-                <a href="#contact" className='contactancer'><button className='contactbtn'>{btn}<img src={img} className='arrow'/></button></a>
-                            
+                <a href="#contact" className='contactancer'><button className='contactbtn'>{btn}<img src={img} className='arrow'/></button></a>                    
             </div>
         </div>
     )
