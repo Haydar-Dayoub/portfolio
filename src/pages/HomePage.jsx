@@ -95,7 +95,7 @@ const HomePage = () => {
       },
       {
         image : `/ski.png`,
-        title : 'Sales platform',
+        title : 'Ski platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/ski/",
