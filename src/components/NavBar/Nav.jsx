@@ -23,7 +23,7 @@ const Nav = ({name,menu,changeValue,bttn,click,exit}) => {
             })}
         </ul>
         <img
-        src={`${theme}.png`}
+        src={`/${theme}.png`}
         className='mod'
         id='moon'
         onClick={changeValue} />
@@ -43,7 +43,7 @@ const Nav = ({name,menu,changeValue,bttn,click,exit}) => {
             })}
         </ul>
         <img
-        src={`${theme}.png`}
+        src={`/${theme}.png`}
         className='mode'
         onClick={changeValue} />
 
