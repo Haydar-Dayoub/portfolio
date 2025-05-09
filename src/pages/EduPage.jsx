@@ -19,7 +19,7 @@ const EduPage = () => {
             id : 1,
             website_name: 'sales platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo: "https://haydar-dayoub.github.io/sales/",
             repo : "https://github.com/Haydar-Dayoub/sales",
             basic : 'Html5 , Css',
@@ -33,7 +33,7 @@ const EduPage = () => {
             id : 2,
             website_name: 'Rent-Up Platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo: "https://haydar-dayoub.github.io/rent-up/",
             repo : "https://github.com/Haydar-Dayoub/rent-up",
             basic : 'Html5 , Css',
@@ -47,7 +47,7 @@ const EduPage = () => {
             id: 3,
             website_name: 'furniture platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo: " https://haydar-dayoub.github.io/furniture/",
             repo : "https://github.com/Haydar-Dayoub/furniture",
             basic : 'Html5 , Css',
@@ -61,7 +61,7 @@ const EduPage = () => {
             id : 4,
             website_name: 'ski platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo: "https://haydar-dayoub.github.io/ski/",
             repo : "https://github.com/Haydar-Dayoub/ski",
             basic : 'Html5 , Css',
@@ -75,7 +75,7 @@ const EduPage = () => {
             id: 5,
             website_name: 'flora platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo: "https://haydar-dayoub.github.io/flora-responsive/",
             repo : "https://github.com/Haydar-Dayoub/flora-responsive",
             basic : 'Html5 , Css',
@@ -89,7 +89,7 @@ const EduPage = () => {
             id: 6,
             website_name: 'travel platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo :  "https://haydar-dayoub.github.io/travel-react/",
             repo:   "https://github.com/Haydar-Dayoub/travel-react",
             basic : 'Html5 , Css',
@@ -103,7 +103,7 @@ const EduPage = () => {
             id : 7,
             website_name: 'edu platform',
             date : '12-5-2024',
-            icon : './public/icon.png',
+            icon : '/icon.png',
             demo : "https://haydar-dayoub.github.io/edu-jar/",
             repo: "https://github.com/Haydar-Dayoub/edu-jar",
             basic :'Html5 , Css , Javascript' ,
@@ -163,7 +163,7 @@ const EduPage = () => {
                     <div className={popup}>
                         <span className='close' onClick={()=>setPopup(pop === 'block' ? 'block' : 'none' )}>x</span>
                         {/* <img src="./close.png" alt="" className='close' /> */}
-                        <img src='/edu.png' alt="" className='img-popup' />
+                        <img src={project.img} alt="" className='img-popup' />
                     </div>
                     <Nav
                         name='Haydar'
@@ -224,7 +224,7 @@ const EduPage = () => {
                     </div>
                     <p className='desc'>{project.desc} </p>
     
-                    <p className='basic' > Basic Languages :<span className='lan'> {project.lan}</span></p>
+                    <p className='basic' > Basic Languages :<span className='lan'> {project.basic}</span></p>
                     <p className='basic' > Framework :<span className='lan'> {project.framework}</span></p>
                     <p className='basic' > Libraries :<span className='lan'> {project.library}</span></p>
                     <a href={project.repo}><button className='repo'>Github Repo</button></a>
