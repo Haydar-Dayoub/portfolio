@@ -18,7 +18,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : "https://haydar-dayoub.github.io/sales/",
-            link :'/sales',
+            link :'/edu',
             id :1
         
             },
@@ -28,7 +28,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : "https://haydar-dayoub.github.io/rent-up/",
-            link :'/rent-up',
+            link :'/edu',
             id:2
         
             },
@@ -38,7 +38,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : " https://haydar-dayoub.github.io/furniture/",
-            link :'/furniture',
+            link :'/edu',
             id : 3
         
             },
@@ -48,7 +48,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : "https://haydar-dayoub.github.io/ski/",
-            link :'/ski',
+            link :'/edu',
             id:4
             },
             {
@@ -57,7 +57,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : "https://haydar-dayoub.github.io/flora-responsive/",
-            link :'/flora',
+            link :'/edu',
             id:5
         
             },
@@ -67,7 +67,7 @@ const BestProject = () => {
             subtitle : 'Html , Css3',
             btn : icon,
             href : "https://haydar-dayoub.github.io/travel-react/",
-            link :'/travel',
+            link :'/edu',
             id:6
         
             },
@@ -81,15 +81,8 @@ const BestProject = () => {
             id:7
         
             }
-    /*       {
-            image : `./public/trippy1.png`,
-            title : 'Sales platform',
-            subtitle : 'Html , Css3',
-            btn : icon
-        
-            }, */
+
         ]
-        console.log(projects1.length)
 
         const [slideIndex , setSlideIndex] = useState(0)
         
@@ -135,7 +128,7 @@ const BestProject = () => {
                                         subtitle={element.subtitle}
                                         btn={element.btn}
                                         href={element.href}
-                                        link={element.link}/>
+                                        link={`${element.link}/${element.id}`}/>
                                 </div>
                                 )
                             })

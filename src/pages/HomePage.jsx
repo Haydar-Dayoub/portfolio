@@ -67,60 +67,67 @@ const HomePage = () => {
     
     const projects1 = [
       {
+        id:1,
         image : sales,
         title : 'Sales platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/sales/",
-        link :'/sales'
+        link :'/edu'
     
       },
       {
+        id:2,
         image : `/rent-up.png`,
         title : 'Rent-up platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/rent-up/",
-        link :'/rent-up'
+        link :'/edu'
     
       },
       {
+        id:3,
         image : `/furniture.png`,
         title : 'Furniture platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : " https://haydar-dayoub.github.io/furniture/",
-        link :'/furniture'
+        link :'/edu'
     
       },
       {
+        id:4,
         image : `/ski.png`,
         title : 'Ski platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/ski/",
-        link :'/ski'
+        link :'/edu'
     
       },
       {
+        id:5,
         image : `/flora1.png`,
         title : 'Flora platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/flora-responsive/",
-        link :'/flora'
+        link :'/edu'
     
       },
       {
+        id:6,
         image : `/travel.png`,
         title : 'Travel platform',
         subtitle : 'Html , Css3',
         btn : icon,
         href : "https://haydar-dayoub.github.io/travel-react/",
-        link :'/travel'
+        link :'/edu'
     
       },
       {
+        id:7,
         image : `/edu.png`,
         title : 'Educational Platform',
         subtitle : 'Html , Css3',
@@ -129,13 +136,7 @@ const HomePage = () => {
         link :'/edu'
     
       }
-/*       {
-        image : `./public/trippy1.png`,
-        title : 'Sales platform',
-        subtitle : 'Html , Css3',
-        btn : icon
-    
-      }, */
+
     ]
     // const theme = useContext(ThemeContext)
 
@@ -256,7 +257,7 @@ const HomePage = () => {
                         {projects1.map((element,index) =>{
                             return(
                                 <CardProject key={index} image={element.image} title={element.title}
-                                subtitle={element.subtitle} btn={element.btn} href={element.href} link={element.link}/>
+                                subtitle={element.subtitle} btn={element.btn} href={element.href} link={`${element.link}/${element.id}`}/>
                             )
                         })}
                     </ContainerProject>
