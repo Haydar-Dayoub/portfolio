@@ -33,16 +33,16 @@ import { MenuContext } from '../context/MenuContext'
 const HomePage = () => {
     const expp = [
         {
-            name: 'Experince Designer',
-            title : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales ',
-            name1: 'Frontend Developer',
-            title1 : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales '
+            name: 'Education',
+            title : "Bachelor's Degree in Communications and Electronics Engineering- Faculty of Electrical and Mechanical Engineering, Lattakia University ",
+            name1: 'Education',
+            title1 : 'Frontend Developer -Vica Web Solutions company,Analyze customer requirements and determine their user interface needs,■ 	Collaborate with the back-end development team toe nsu re the integration of the interfaces with the overall system.'
         },
         {
-            name: 'Experince Designer',
-            title : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales ',
-            name1: 'Frontend Developer',
-            title1 : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales '
+            name: 'Experince',
+            title : 'Data Entry-Odila Pharma For Pharmaceutical Industries,	Enter data accurately and quickly in the selected database system using Al-Ameen program',
+            name1: 'Experince',
+            title1 : 'accountant-Oranfe Mall, Lattakia,	Manage all general accounting processes using infinity software.'
         }
     ]
     

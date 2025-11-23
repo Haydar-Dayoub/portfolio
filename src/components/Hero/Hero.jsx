@@ -21,7 +21,7 @@ const Hero = ({title,title1,title2,subtitle,btn,woman,squers}) => {
           
         </div>
         <div className="photo" /* style={{backgroundImage: `url(${circle})`}} */>
-          <img src='/haydra.png' alt="" className='woman'/>
+          <img src='/profile.png' alt="" className='woman'/>
            <img src={squers} className='squers'/>
          </div>
       </div>
