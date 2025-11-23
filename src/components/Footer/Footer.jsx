@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='soicalmedia'>
                 <a href="https://www.facebook.com/haydra999"><img src={facebook} alt="" /></a>
                 <a href="https://www.instagram.com/haydara_dayoub"><img src={instagram} alt="" /></a>
-                <a href=""><img src={linked} alt="" /></a>
+                <a href="https://www.linkedin.com/in/haydar-dayoub-96b16124a"><img src={linked} alt="" /></a>
             </div>
         </div>
 
